@@ -7,12 +7,9 @@ body, .main-background, .secondary-background, .quote-container, .news-container
     font-size: x-large;
     font-family: "Lucida Console", "Courier New", monospace;
 }
-
-
 .main-background{
     background-color: #2e1114;
 }
-
 .ad-container{
     display: flex;
     background-color: #2e1114;
@@ -55,10 +52,7 @@ body, .main-background, .secondary-background, .quote-container, .news-container
     
 }
 
-img{
-    width: 10px;
-    height: auto;
-}
+
 
 
 .header{
@@ -95,8 +89,119 @@ img{
 .quote-container{
     background-color: #83677b;
 }
+
+.secondary-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.secondary-background h1{
+    justify-items: center;
+    align-items: center;
+    
+    text-decoration: underline;
+}
+
+.secondary-background h4{
+    justify-items: center;
+    align-items: center;
+    
+    text-decoration: underline;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    width: 1281px;
+    padding: 21px 30px;
+    gap: 49px;
+}
+
+.first-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.first-image img{
+    width: 300px;
+    height: auto;
+}
+
+.first-image p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70%;
+    flex: 0 2 auto;
+}
+
+.second-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.second-image img{
+    width: 300px;
+    height: auto;
+}
+
+.second-image p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70%;
+    flex: 0 2 auto;
+}
+
+.third-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.third-image img{
+    width: 300px;
+    height: auto;
+}
+
+.third-image p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70%;
+    flex: 0 2 auto;
+}
+
+.fourth-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.fourth-image img{
+    width: auto;
+    height: 450px;
+}
+
+.fourth-image p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70%;
+    flex: 0 2 auto;
+}
+
+
 footer{
     background-color: #2e1114;
     color: #adadad;
     text-align: center;
 }
+
+
+
