@@ -1,0 +1,102 @@
+
+body, .main-background, .secondary-background, .quote-container, .news-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.main-background{
+    background-color: #2e1114;
+}
+
+.ad-container{
+    display: flex;
+    background-color: #2e1114;
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: row;
+    color: white;
+}
+.ad-words{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    color: #adadad;
+    padding: 25px 300px;
+    margin-bottom: 208px;
+    flex: 0 1 900px;
+    
+}
+.ad-words h1{
+    
+    color: white;
+}
+.button{
+    display: inline-flex;
+    background-color: #501b1d;
+    align-self: flex-start;
+    padding: 10px 10px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+.ad-container img{
+    height: 400px;
+    width: auto;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    padding-right: 300px;
+    padding-left: 0px;
+    
+}
+
+img{
+    width: 10px;
+    height: auto;
+}
+
+
+.header{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    color: white;
+}
+
+.header h3{
+    justify-self: center;
+    
+    flex: 1 0;
+    margin-left: 300px;
+    
+    font-size: xx-large;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    flex: 1 1;
+    margin-right: 48px;
+    align-items: center;
+}
+
+.header li a {
+    color: #adadad;
+    text-decoration: none;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.quote-container{
+    background-color: #83677b;
+}
+footer{
+    background-color: #2e1114;
+    color: #adadad;
+    text-align: center;
+}
