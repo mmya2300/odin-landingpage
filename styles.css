@@ -1,5 +1,5 @@
 
-body, .main-background, .secondary-background, .quote-container, .news-container{
+body, .main-background, .secondary-background, .quote-container{
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -52,9 +52,6 @@ body, .main-background, .secondary-background, .quote-container, .news-container
     
 }
 
-
-
-
 .header{
     display: flex;
     justify-items: center;
@@ -87,7 +84,9 @@ body, .main-background, .secondary-background, .quote-container, .news-container
 }
 
 .quote-container{
+    display: flex;
     background-color: #83677b;
+    padding: 150px;
 }
 
 .secondary-background{
@@ -195,6 +194,58 @@ body, .main-background, .secondary-background, .quote-container, .news-container
     font-size: 70%;
     flex: 0 2 auto;
 }
+
+.quote-container p{
+    margin: 48px 352px;
+    font-size: 40px;
+}
+
+.citation{
+    justify-self: flex-end;
+    align-self: right;
+    text-align: right;
+}
+
+.news-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #501b1d;
+    margin:  50px 200px;
+    padding: 10px 80px;
+    color: white;
+}
+
+.news-word {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px 80px;
+    align-items: center;
+}
+
+.news-word h3{
+    justify-self: left;
+    flex: 1;
+}
+.news-word p{
+    flex: 1;
+}
+.news-container button{
+    
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    padding: 18px 30px;
+    flex: 1;
+    
+   
+}
+
+
+
+
+
 
 
 footer{
