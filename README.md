@@ -4,11 +4,12 @@
 
 ### Overall Summary :v:
 
-I was tasked with created a landing page based on the design given in this section of the course. I have already have experience creating a website of my own before, however this time I wanted to use what was taught in the course.
+I was tasked with creating a landing page based on the design in the course section. I have already had experience creating a website of my own before. However, I wanted to use what was taught in the course this time.
 
-I wanted my landing page to be centered around a skin-care brand, so I researched alot of beauty websites to look at what they displayed on their page and see how I can implement it on my page.
+I wanted my landing page to be centered around a skin-care brand, so I researched many beauty websites to look at what they displayed on their page and see how I could implement it.
 
-Overall, I learned alot with this assignment and I'm getting more and more comfortable at the design aspect of web development and can't wait to go to the next section. 
+Overall, I learned a lot with this assignment, and I'm getting more and more comfortable with the design aspect of web development and can't wait to go to the next section.
+
 ### Tech Used :computer_mouse:
 
 Languages: HTML, CSS
